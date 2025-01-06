@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <title>Santillana Bingoplop</title>
+</head>
+
+<body>
+
+    <img id="fondo" class="fondo" src="./img/fondo.png" alt="">
+    <div class="container contenedor">
+        <div class="container cartas-contenedor">
+            <div id="carta" class="parte-atras carta-medida">
+                <img id='img-bicho' class='bichito' src="./img/bichito.png">
+            </div>
+            <!--<div id="parte-atras" class="parte-atras">
+            </div>-->
+            <audio id="tada" src="./sound/tada.mp3"></audio>
+            <audio id="shake" src="./sound/shake.mp3"></audio>
+            <audio id="cartoon" src="./sound/cartoon.mp3"></audio>
+        </div>
+
+        <div id="contenedor-btn" class="container btn-contenedor">
+            <button id="btn-girar" class="btn btn-girar ">MOSTRAR</button>
+            <button id="btn-reiniciar" class="btn btn-girar">REINICIO</button>
+        </div>
+    </div>
+    <script type="module" src="./script/main.js"></script>
+</body>
+
+</html>
