@@ -91,13 +91,14 @@ body {
 
 .btn-girar {
     margin: 0.5rem;
-    width: 6rem;
-    height: 3rem;
+    width: 8rem;
+    height: 4rem;
     border-radius: 10px;
     background-color: #DB88B9;
     cursor: pointer;
     color: #F3F7EC;
     border: 3px solid #F3F7EC;
+    font-size: larger;
 }
 
 .btn {
@@ -124,8 +125,8 @@ body {
 .carta-final {
     display: flex;
     flex-direction: column;
-    width: 16rem;
-    height: 22rem;
+    width: 19rem;
+    height: 24rem;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -141,16 +142,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 1rem;
-    color: white;
-    text-shadow:
-        2px 2px 0px black,
-        -2px 2px 0px black,
-        2px -2px 0px black,
-        -2px -2px 0px black,
-        2px 0px 0px black,
-        -2px 0px 0px black,
-        0px 2px 0px black,
-        0px -2px 0px black;
+    color: rgb(0, 0, 0);
+
 }
 
 @media (min-width: 1600px) {
